@@ -18,15 +18,17 @@ body {
 .quadro{
 
     position: absolute;
-    left: 450px;
+    left: 280px;
     top: 100px;
     background-color: #F3F5FC;
+    right: 200px;
 
     width: 800px;
     height: 500px;
-    border-radius: 0px;
+    border-radius: 5px;
     font-family: Verdana;
 }
+
 
 .coder{
 
