@@ -30,7 +30,7 @@ function descodificarTexto (){
     return msg
         } else {
 
-            return 'Esse texto não é código!'
+            return 'Esse texto não está criptografado!'
         }
     
 }
