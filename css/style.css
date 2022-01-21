@@ -1,4 +1,45 @@
+.quadro{
 
+    position: absolute;
+    left: 350px;
+    top: 100px;
+    background-color: #F3F5FC;
+
+    width: 800px;
+    height: 500px;
+    border-radius: 0px;
+}
+
+.coder{
+
+    position: relative;
+    top: 50px;
+    left: 100px;
+}
+
+.decoder{
+
+    position: relative;
+    left: 500px;
+    top: 10px;
+
+}
+
+.codificador {
+
+    height: 400px;
+    width: 250px;
+
+}
+
+#botao-codificar{
+
+    position: relative;
+    top: 220px;
+    right: 160px;
+
+
+}
 
 #descodificador{
 
