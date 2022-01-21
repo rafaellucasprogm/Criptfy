@@ -1,3 +1,18 @@
+body {
+
+    background-color: rgb(118, 148, 148);
+}
+
+.logo-alura{
+
+    left: 20px;
+    top: 20px;
+    position: absolute;
+    width: 35px;
+    height: 35px;
+}
+
+
 .quadro{
 
     position: absolute;
@@ -12,44 +27,75 @@
 
 .coder{
 
-    position: relative;
-    top: 50px;
+    position: absolute;
+    top: 70px;
     left: 100px;
 }
 
 .decoder{
 
-    position: relative;
+    position: absolute;
     left: 500px;
-    top: 10px;
+    top: 70px;
 
 }
 
 .codificador {
 
-    height: 400px;
-    width: 250px;
+    resize: none;
+    height: 250px;
+    width: 340px;
+    border-radius: 15px;
+    border: 0;
+    color: #0A3871;
+    background-color: #F3F5FC;
+
+    font-size: 15px;
+    
+    
 
 }
+
+
 
 #botao-codificar{
 
     position: relative;
-    top: 220px;
-    right: 160px;
+    top: 50px;
+    right: 280px;
+
+    width: 200px;
+    height: 40px;
+    border-radius: 24px;
+    background-color: #0A3871;
+    color: white;
+    border: #0A3871;
+
 
 
 }
 
-#descodificador{
-
-
-    margin-top: 20px;
+.descodificador{
+    color: #0A3871;
+    font-size: 15px;
+    resize: none;
+    height: 350px;
+    width: 250px;
+    border-radius: 15px;
+    border: 0;
+    box-shadow: 0px 24px 32px -8px rgba(0, 0, 0, 0.08)
+    
   
 }
 
-.resultado-cripto{
+#botao-descodificar{
 
-    margin-left: 10px;
+
+}
+
+textarea:focus {
+
+    box-shadow: 0 0 0 0;
+    outline: 0;
 }
 
