@@ -2,16 +2,16 @@ var botaoDecodificar = document.querySelector('#botao-descodificar')
 
 botaoDecodificar.addEventListener('click',function(){
     var resultadoDecoficado = document.querySelector('.resultado-decripto')
-    var inputTexto = document.querySelector('#descodificador')
+    var inputTexto = document.querySelector('.descodificador')
     var texto = descodificarTexto()
     console.log(texto)
 
-    resultadoDecoficado.textContent = texto 
+    inputTexto.value = texto 
     
 })
 
 function descodificarTexto (){
-    var inputTexto = document.querySelector('#descodificador')
+    var inputTexto = document.querySelector('.descodificador')
     var mensagemUsuario = inputTexto.value
     
     if (mensagemUsuario.includes('enter') ||
@@ -30,7 +30,7 @@ function descodificarTexto (){
     return msg
         } else {
 
-            return 'Esse texto não é codigo!'
+            return 'Esse texto não é código!'
         }
     
 }

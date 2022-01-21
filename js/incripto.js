@@ -2,7 +2,7 @@ var botaoCodificar = document.querySelector('#botao-codificar')
 
 botaoCodificar.addEventListener('click', function(){
     var inputTexto = document.querySelector('.codificador')
-    var inputTextoDeco = document.querySelector('#descodificador')
+    var inputTextoDeco = document.querySelector('.descodificador')
     var resultadoDecoficado = document.querySelector('.resultado-decripto')
     var texto = pegarECodifiarTexto()
 
