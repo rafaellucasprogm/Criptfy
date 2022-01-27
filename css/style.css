@@ -16,7 +16,7 @@ body {
 
 
 .quadro{
-
+    
     position: absolute;
     left: 280px;
     top: 100px;
@@ -142,3 +142,28 @@ textarea:focus {
     outline: 0;
 }
 
+.img-regra{
+
+    position: absolute;
+    right: 330px;
+    top: 270px;
+
+    
+}
+
+.aviso {
+
+    font-family: Verdana;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    
+    color: #495057;
+    opacity: 0.8;
+
+    position: absolute;
+    left: 35px;
+    top: 258px;  
+
+    
+}

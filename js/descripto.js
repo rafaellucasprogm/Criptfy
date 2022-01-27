@@ -14,6 +14,7 @@ function descodificarTexto (){
     var inputTexto = document.querySelector('.descodificador')
     var mensagemUsuario = inputTexto.value
     
+    
     if (mensagemUsuario.includes('enter') ||
         mensagemUsuario.includes('emis') ||
         mensagemUsuario.includes('ai') ||
@@ -29,8 +30,7 @@ function descodificarTexto (){
 
     return msg
         } else {
-
-            return 'Esse texto não está criptografado!'
+            return 'O texto não está criptografado!'
         }
     
 }
